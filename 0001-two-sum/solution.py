@@ -3,11 +3,8 @@ class Solution(object):
         l=[]
         for x in range(0,len(nums)):
             for y in range(x+1,len(nums)):
-                a=nums[x]
-                b=nums[y]
-                c=a+b
-                if c==target:
+                if nums[x]+nums[y]==target:
                     l.append(x)
                     l.append(y)
-        return l
+                    return l
         
