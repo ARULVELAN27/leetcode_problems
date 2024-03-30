@@ -1,22 +1,15 @@
 class Solution(object):
     def thirdMax(self, nums):
         l=[]
-        if len(nums)<3:
-            nums.sort()
-            z=len(nums)-1
-            return nums[z]
+        nums.sort(reverse=True)
+        
+        for x in nums:
+            if x not in l:
+                l.append(x)
+        a=len(l)
+        if a>=3:
+            return l[2]
         else:
-            for x in nums:
-                if x  not in l:
-                    l.append(x)
+            return max(l)
 
-            if len(l)<3:
-                nums.sort()
-                z=len(nums)-1
-                return nums[z]
-            else:
-                l.sort()
-                z = len(l) - 3
-                return l[z]
-            
-            
+        
