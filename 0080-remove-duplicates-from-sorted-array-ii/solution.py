@@ -7,4 +7,3 @@ class Solution(object):
             if nums.count(x)>2:
                 nums.remove(x)
         return len(nums)
-        
