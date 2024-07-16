@@ -1,16 +1,12 @@
 class Solution(object):
     def differenceOfSum(self, nums):
         a=0
-        k=[]
-        l=0
         for x in nums:
             a=a+x
-        for x in nums:
-            j=str(x)
-            for x in j:
-                f=int(x)
-                l=l+f
-        p=a-l
-        g=abs(p)
-        return g
+        b=0
+        for y in nums:
+            w=str(y)
+            for r in w:
+                b=b+int(r)
+        return abs(a-b)
         
