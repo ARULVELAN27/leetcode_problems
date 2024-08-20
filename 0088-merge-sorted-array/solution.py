@@ -7,5 +7,5 @@ class Solution(object):
         for y in nums2:
             nums1.append(y)
         nums1.sort()
-        return nums1
+        return nums1 
         
