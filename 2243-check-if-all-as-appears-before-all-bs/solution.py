@@ -1,16 +1,18 @@
 class Solution(object):
     def checkString(self, s):
-        a=0
-        flag=False
+        a=[]
+        b=[]
         for x in range(0,len(s)):
-            if s[x]=="b":
-                a=x
-                flag=True
-                break
-        if flag==False:
+            if s[x]=='a':
+                a.append(x)
+            else:
+                b.append(x)
+        if len(a)==0 or len(b)==0:
             return True
-        for y in range(a,len(s)):
-            if s[y]=="a":
-                return False
-        return True
+        else:
+            for x in a:
+                for y in b:
+                    if x>y:
+                        return False
+        return True     
         
