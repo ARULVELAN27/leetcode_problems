@@ -15,4 +15,3 @@ class Solution(object):
                 l[p[len(p) - x-1]] = t
         q="".join(l)
         return q
-        
