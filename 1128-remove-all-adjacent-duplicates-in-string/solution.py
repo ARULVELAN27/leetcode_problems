@@ -1,0 +1,16 @@
+class Solution(object):
+    def removeDuplicates(self, s):
+        a = []
+        for x in s:
+            if len(a) == 0 or a[len(a)-1]!=x:
+                a.append(x)
+            elif a[len(a)-1]==x:
+                a.pop()
+        return "".join(a)
+
+            
+
+
+
+
+        
