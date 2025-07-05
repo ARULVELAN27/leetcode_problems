@@ -1,11 +1,8 @@
 class Solution(object):
     def findLucky(self, arr):
-        l=[]
+        a=-1
         for x in arr:
-            if arr.count(x)==x:
-                l.append(x)
-        if len(l)>0:
-            a=max(l)
-            return a
-        return -1
+            if arr.count(x)==x and x>a:
+                a=x
+        return a
         
