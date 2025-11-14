@@ -1,7 +1,16 @@
 class Solution(object):
     def pivotInteger(self, n):
-        for x in range(1,n+1):
-            if sum(x for x in range(1,x+1))==sum(x for x in range(x,n+1)):
-                return x
+        pivot=1
+        left=0
+        right=0
+        while(pivot<=n):
+            left=(pivot*(pivot+1))//2
+            right=((abs(pivot-n)+1)*(pivot+n))//2
+            print(left,right)
+            if left==right:
+                return pivot
+            else:
+                pivot=pivot+1
         return -1
+
         
