@@ -1,10 +1,10 @@
 class Solution(object):
     def containsDuplicate(self, nums):
-        hset = set()
-        for idx in nums:
-            if idx in hset:
+        a={}
+        for x in nums:
+            if x in a:
                 return True
             else:
-                hset.add(idx)
-
+                a[x]=0
+        return False
         
