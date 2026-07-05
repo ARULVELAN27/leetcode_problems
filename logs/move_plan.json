@@ -1,0 +1,59 @@
+{
+    "generated_moves": 9,
+    "moves": [
+        {
+            "problem_id": 4008,
+            "source": "4008-restore-finishing-order",
+            "destination": "Arrays/Easy/4008 - Restore Finishing Order",
+            "status": "pending"
+        },
+        {
+            "problem_id": 4051,
+            "source": "4051-remove-zeros-in-decimal-representation",
+            "destination": "Math/Easy/4051 - Remove Zeros in Decimal Representation",
+            "status": "pending"
+        },
+        {
+            "problem_id": 4058,
+            "source": "4058-compute-alternating-sum",
+            "destination": "Arrays/Easy/4058 - Compute Alternating Sum",
+            "status": "pending"
+        },
+        {
+            "problem_id": 4090,
+            "source": "4090-minimum-string-length-after-balanced-removals",
+            "destination": "Stack/Medium/4090 - Minimum String Length After Balanced Removals",
+            "status": "pending"
+        },
+        {
+            "problem_id": 4107,
+            "source": "4107-find-missing-elements",
+            "destination": "Arrays/Easy/4107 - Find Missing Elements",
+            "status": "pending"
+        },
+        {
+            "problem_id": 4112,
+            "source": "4112-maximize-expression-of-three-elements",
+            "destination": "Greedy/Easy/4112 - Maximize Expression of Three Elements",
+            "status": "pending"
+        },
+        {
+            "problem_id": 4135,
+            "source": "4135-concatenate-non-zero-digits-and-multiply-by-sum-i",
+            "destination": "Math/Easy/4135 - Concatenate Non-Zero Digits and Multiply by Sum I",
+            "status": "pending"
+        },
+        {
+            "problem_id": 4199,
+            "source": "4199-minimum-prefix-removal-to-make-array-strictly-increasing",
+            "destination": "Arrays/Medium/4199 - Minimum Prefix Removal to Make Array Strictly Increasing",
+            "status": "pending"
+        },
+        {
+            "problem_id": 4332,
+            "source": "4332-check-good-integer",
+            "destination": "Uncategorized/Easy/4332 - Check Good Integer",
+            "status": "pending"
+        }
+    ]
+}

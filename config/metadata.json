@@ -1,0 +1,109 @@
+{
+    "4008": {
+        "id": 4008,
+        "title": "Restore Finishing Order",
+        "slug": "restore-finishing-order",
+        "difficulty": "Easy",
+        "primary_topic": "Arrays",
+        "leetcode_tags": [
+            "Array",
+            "Hash Table"
+        ],
+        "folder_name": "4008 - Restore Finishing Order"
+    },
+    "4051": {
+        "id": 4051,
+        "title": "Remove Zeros in Decimal Representation",
+        "slug": "remove-zeros-in-decimal-representation",
+        "difficulty": "Easy",
+        "primary_topic": "Math",
+        "leetcode_tags": [
+            "Math",
+            "Simulation"
+        ],
+        "folder_name": "4051 - Remove Zeros in Decimal Representation"
+    },
+    "4058": {
+        "id": 4058,
+        "title": "Compute Alternating Sum",
+        "slug": "compute-alternating-sum",
+        "difficulty": "Easy",
+        "primary_topic": "Arrays",
+        "leetcode_tags": [
+            "Array",
+            "Simulation"
+        ],
+        "folder_name": "4058 - Compute Alternating Sum"
+    },
+    "4090": {
+        "id": 4090,
+        "title": "Minimum String Length After Balanced Removals",
+        "slug": "minimum-string-length-after-balanced-removals",
+        "difficulty": "Medium",
+        "primary_topic": "Stack",
+        "leetcode_tags": [
+            "String",
+            "Stack",
+            "Counting"
+        ],
+        "folder_name": "4090 - Minimum String Length After Balanced Removals"
+    },
+    "4107": {
+        "id": 4107,
+        "title": "Find Missing Elements",
+        "slug": "find-missing-elements",
+        "difficulty": "Easy",
+        "primary_topic": "Arrays",
+        "leetcode_tags": [
+            "Array",
+            "Hash Table",
+            "Sorting"
+        ],
+        "folder_name": "4107 - Find Missing Elements"
+    },
+    "4112": {
+        "id": 4112,
+        "title": "Maximize Expression of Three Elements",
+        "slug": "maximize-expression-of-three-elements",
+        "difficulty": "Easy",
+        "primary_topic": "Greedy",
+        "leetcode_tags": [
+            "Array",
+            "Greedy",
+            "Sorting",
+            "Enumeration"
+        ],
+        "folder_name": "4112 - Maximize Expression of Three Elements"
+    },
+    "4135": {
+        "id": 4135,
+        "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
+        "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
+        "difficulty": "Easy",
+        "primary_topic": "Math",
+        "leetcode_tags": [
+            "Math"
+        ],
+        "folder_name": "4135 - Concatenate Non-Zero Digits and Multiply by Sum I"
+    },
+    "4199": {
+        "id": 4199,
+        "title": "Minimum Prefix Removal to Make Array Strictly Increasing",
+        "slug": "minimum-prefix-removal-to-make-array-strictly-increasing",
+        "difficulty": "Medium",
+        "primary_topic": "Arrays",
+        "leetcode_tags": [
+            "Array"
+        ],
+        "folder_name": "4199 - Minimum Prefix Removal to Make Array Strictly Increasing"
+    },
+    "4332": {
+        "id": 4332,
+        "title": "Check Good Integer",
+        "slug": "check-good-integer",
+        "difficulty": "Easy",
+        "primary_topic": "Uncategorized",
+        "leetcode_tags": [],
+        "folder_name": "4332 - Check Good Integer"
+    }
+}
